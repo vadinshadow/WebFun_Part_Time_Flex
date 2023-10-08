@@ -1,0 +1,28 @@
+button {
+    display: block;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.Search {
+    width: 100px;
+    border-radius: 35%;
+    color: aqua;
+    border-color: aqua;
+}
+
+.Plus {
+    width: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    border-color: aqua;
+}
+
+.Account {
+    width: 150px;
+    border-radius: 0%;
+    background-color: blue;
+    color: white;
+    border: 3px solid black;
+    box-shadow: 5px 5px 5px black;
+}
