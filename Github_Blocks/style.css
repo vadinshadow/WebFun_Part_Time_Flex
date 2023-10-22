@@ -1,0 +1,39 @@
+*{
+    background-color: aqua;
+}
+
+h1{
+    color:black;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+img {
+    height: 200px;
+}
+
+.blocks1 {
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 20;
+}
+
+.blocks2 {
+    background-color:blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin-bottom: 20;
+}
+
+.blocks3 {
+    background-color:blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
