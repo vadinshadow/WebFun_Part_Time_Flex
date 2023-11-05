@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Button Clicker</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header column column-1-1">
+            <div class="title">
+                <h1>Dojonary</h1>
+            </div>
+            <div class="search">
+                <input type="text" class="search-input" placeholder="search">
+            </div>
+            <div class="login">
+                <button class="button blue" onclick="login(this)">Login</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="column column-2-3 left">
+            <div class="card">
+                <div class="column column-1-4">
+                    <h2 class="word">ninja</h2>
+                    <p class="noun">noun</p>
+                    <p class="plural">Plural: <em>ninjas</em></p>
+                    <button class="button yellow center" onclick="liked(this)">13 likes</button>
+                </div>
+                <div class="column column-3-4">
+                    <p class="definition">A practitioner skilled in the <a href="">Japanese</a> art of <a href="">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="column column-1-4">
+                    <h2 class="word">ninja</h2>
+                    <p class="noun">noun</p>
+                    <p class="plural">Plural: <em>ninjas</em></p>
+                    <button class="button yellow center" onclick="liked(this)">37 likes</button>
+                </div>
+                <div class="column column-3-4">
+                    <p class="definition">A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="column column-1-3 right">
+            <div class="card">
+                <div class="column column-1-1">
+                    <h3 class="defined">Dojonary is defined by YOU</h3>
+                    <button class="button green full" onclick="definition(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
