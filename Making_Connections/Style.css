@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font: normal 14px sans-serif;
+}
+
+.top{
+    background-color: #333333;
+}
+
+.nav{
+    margin: 0 auto;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+#btn{
+    padding: 10px;
+    background-color: #14b5b5;
+    box-shadow: 2px 2px 0 black;
+    cursor: pointer;
+    color: white;
+}
+
+#btn:hover{
+    background-color: #12dbdb;
+}
+
+.container{
+    display: flex;
+    gap: 10px;
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:  white;
+}
+
+.column{
+    width: 50%;
+}
+
+
+.card{
+    border: 2px solid grey;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.topright{
+    margin-top: 10px;
+}
+
+.header{
+    background-color: #333333;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.primary{
+    margin-bottom: 50px;
+    background-color: #14b5b5;
+}
+
+.connections{
+    font-size: 80%;
+    display: block;
+    background-color: white;
+    color: #333333;
+    padding: 1px 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.content{
+    padding: 20px;
+}
+
+.text-based > *{
+    margin-bottom: 10px;
+}
+
+.icon{
+    margin-right: 5%;
+}
+
+.connection-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.connection-row:last-child{
+    margin-bottom: 0px;
+}
+
+.avatar-s{
+    background-color: #eee;
+    border-radius: 100%;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.circle-button{
+    width: 40px;
+    cursor: pointer;
+}
+
+.user{
+    width: 125px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: -75px;
+}
+
+.map{
+    height: 15px;
+    width: 10px;
+    float: left;
+}
+
+.gear{
+    height: 15px;
+    width: 15px;
+}
+
+
+
+.dates{
+    color: grey;
+}
+
+
+.pic{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+
+.footer{
+    padding: 20px;
+    border-top: 2px solid gray;
+}
